@@ -9,12 +9,14 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo e Descrição */}
           <div className="flex flex-col items-start">
-            <Image
-              src="/footer/logo-atas-publicas-branca.svg"
-              alt="Logo"
-              width={200}
-              height={80}
-            />
+            <Link href="/">
+                <Image
+                    src="/header/logo/logo-atas-publicas.svg"
+                    alt="Logo"
+                    width={200}
+                    height={60}
+                />
+            </Link>
             <p className="mt-4 text-sm">
               Facilitando o processo de compra de diferentes tipos de veículos.
             </p>
