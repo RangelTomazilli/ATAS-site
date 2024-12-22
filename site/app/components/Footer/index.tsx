@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-start">
             <Link href="/">
                 <Image
-                    src="/header/logo/logo-atas-publicas.svg"
+                    src="/footer/logo-atas-publicas-branca.svg"
                     alt="Logo"
                     width={200}
                     height={60}
