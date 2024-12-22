@@ -30,7 +30,14 @@ const Navbar: React.FC = () => {
     <nav className="bg-gray-200 shadow-md py-4 px-6 lg:px-40 flex justify-between items-center relative">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <Image src={header.logo} alt="Logo" width={150} height={60} />
+        <Link href="/">
+          <Image
+            src="/header/logo/logo-atas-publicas.svg"
+            alt="Logo"
+            width={150}
+            height={60}
+          />
+        </Link>
       </div>
 
       {/* Menu de navegação - Desktop */}
