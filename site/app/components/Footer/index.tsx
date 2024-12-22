@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li className="text-sm">
-                <Link href="/" className="hover:underline">
+                <Link href="/quem-somos" className="hover:underline">
                   Quem Somos
                 </Link>
               </li>
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-bold mb-4">Ajuda</h4>
             <ul className="space-y-2">
               <li className="text-sm">
-                <Link href="/" className="hover:underline">
+                <Link href="/contato" className="hover:underline">
                   Contato
                 </Link>
               </li>

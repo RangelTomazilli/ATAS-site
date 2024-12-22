@@ -27,7 +27,7 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
               alt={card.title}
               width={250} // Tamanho menor da imagem
               height={250}
-              className="object-contain hover:blur-sm transition duration-300" // Desfoque no hover
+              className="object-contain transition duration-300" // Desfoque no hover
             />
           </div>
 
