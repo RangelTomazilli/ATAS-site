@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #013A63; /* Azul primário */
+  --secondary: #B3E5FC; /* Azul secundário */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+    --primary: #82b0d9; /* Alternativa para modo escuro */
+    --secondary: #a8d8f0; /* Alternativa para modo escuro */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
