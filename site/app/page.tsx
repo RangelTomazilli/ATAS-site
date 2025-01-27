@@ -1,11 +1,10 @@
-
-import Title from "@/app/components/Title";
+import Title from "./components/Title"; // Corrigindo o caminho da importação
 import CardGrid from "./components/Services";
 
 export default function Home() {
   const cards = [
     {
-      image: "/cards-images/hatch.png", // Remova o "/public"
+      image: "/cards-images/hatch.png",
       title: "Hatch",
       description: "Lorem ipsum dolor sit amet consectetur. Sed aliquam pharetra ut.",
     },
@@ -59,8 +58,8 @@ export default function Home() {
   return (
     <div>
       <Title
-        title="A solução que você procurava para suas Atas."
-        subtitle="A forma mais fácil, rápida, segura e econômica de comprar."
+        title="A forma mais fácil, rápida, segura e econômica de comprar."
+        subtitle=""
       />
       <CardGrid cards={cards} /> 
     </div>
