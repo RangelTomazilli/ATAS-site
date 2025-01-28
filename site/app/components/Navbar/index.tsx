@@ -19,10 +19,10 @@ const Navbar: React.FC = () => {
         name: "Quem Somos",
         href: "/quem-somos",
       },
-      {
-        name: "Contato",
-        href: "/contato",
-      },
+      // {
+      //   name: "Contato",
+      //   href: "/contato",
+      // },
     ],
   };
 
