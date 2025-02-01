@@ -19,7 +19,7 @@ export default function QuemSomos() {
             Somos especializados na intermediação de vendas de atas de registro
             de preço para órgãos públicos. Com uma equipe dedicada e
             experiente, nosso objetivo é facilitar o processo de aquisição de
-            produtos por Órgãos Públicos, garantindo que tenham acesso às
+            bens por Órgãos Públicos, garantindo que tenham acesso às
             melhores oportunidades do mercado.
           </p>
 

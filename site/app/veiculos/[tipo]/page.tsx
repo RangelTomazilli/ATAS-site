@@ -9,107 +9,26 @@ export default function Page () {
   const veiculosData = {
     hatch: [
       {
-        nome: "HB20",
-        valor: "R$ 100,00",
+        nome: "CITROEN C3 LIVE",
+        valor: "R$ 77.900,00",
         descricao: (
           <>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p className="mt-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p className="mt-4">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </p>
-          </>
-        ),
-      },
-      {
-        nome: "Argo",
-        valor: "R$ 120,00",
-        descricao: (
-          <>
-            <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </p>
-            <p className="mt-4">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            </p>
-            <p className="mt-4">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+            Veículo automotor, hatch, capacidade de 05 lugares (sendo 4 passageiros e 1 motorista), ano/modelo 2024/2024 ou superior, cor branca, com motor flex (gasolina/etanol) com potência mínima de 70 cv, ar-condicionado, direção elétrica ou hidráulica, trava elétrica nas portas, vidros elétricos nas portas dianteiras, para-choques pintados na cor do veículo, porta-malas de no mínimo 300 litros e com todos os itens de segurança de acordo com o Código de Trânsito Brasileiro e exigidos pelo Denatran.
             </p>
           </>
         ),
       },
     ],
-    sedan: [
-      {
-        nome: "Civic",
-        valor: "R$ 150,00",
-        descricao: (
-          <>
-            <p>
-              Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-            </p>
-            <p className="mt-4">
-              Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-            </p>
-            <p className="mt-4">
-              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-            </p>
-          </>
-        ),
-      },
-      {
-        nome: "Corolla",
-        valor: "R$ 160,00",
-        descricao: (
-          <>
-            <p>
-              On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.
-            </p>
-            <p className="mt-4">
-              Blinded by desire, they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will.
-            </p>
-            <p className="mt-4">
-              Which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.
-            </p>
-          </>
-        ),
-      },
-    ],
+    sedan: [],
     suv: [
       {
-        nome: "Compass",
-        valor: "R$ 180,00",
+        nome: "FIAT / FASTBACK TURBO",
+        valor: "R$ 123.000,00",
         descricao: (
           <>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-            </p>
-            <p className="mt-4">
-              Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-            </p>
-            <p className="mt-4">
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-            </p>
-          </>
-        ),
-      },
-      {
-        nome: "Creta",
-        valor: "R$ 170,00",
-        descricao: (
-          <>
-            <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </p>
-            <p className="mt-4">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            </p>
-            <p className="mt-4">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+            Cilindrada total (cc) : 999, Potência (cv) : 125,0 (G) / 130,0 (E), Altura do veículo (mm) : 1500, Capacidade do porta-malas (litros) : 360, Comprimento do veículo (mm) : 4000, Entre-Eixos (mm) : 2500, Tanque de combustível (litros) : 46, Banco traseiro bipartido 60/40 e com assentos rebatíveis, *Roda de liga leve R16, Airbags (4) - Frontal (2), Tórax e Cabeça (2), .larme antifurto, Ar-condicionado digital, ASR (Controle eletrônico de tração), Banco do motorista com regulagem de altura Brake light, Câmbio automático CVT (7 velocidades, simuladas), Central multimídia com tela de 8,0" touchscreen, Apple Car Play e Android Auto wireless, Comandos de Voz, Bluetooth, MP3, Rádio AM/FM, Comandos de áudio e painel de instrumentos no volante, Computador de Bordo (distância, consumo médio, consumo instantâneo, autonomia, velocidade média e tempo de percurso), Desembaçador do vidro traseiro com temporizador, Direção elétrica, ESP (Controle Eletrônico de Estabilidade) ESS (Sinalização de frenagem de emergência), Hill holder (Assistente de partida em rampa), Retrovisores externos com regulagem elétrica, Sensor de estacionamento traseiro, Vidros elétricos dianteiros e traseiros com função antiesmagamento, Volante com regularem de altura.
             </p>
           </>
         ),
@@ -117,41 +36,44 @@ export default function Page () {
     ],
     "pick-up": [
       {
-        nome: "Hilux",
-        valor: "R$ 200,00",
+        nome: "FIAT / TORO VOLCANO TURBODIESEL 4X4",
+        valor: "R$ 191.000,00",
         descricao: (
           <>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            VEICULO CAMINHONETE CABINE DUPLA DIESEL ANO/MOD:2024
             </p>
             <p className="mt-4">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </p>
-            <p className="mt-4">
-              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-            </p>
-          </>
-        ),
-      },
-      {
-        nome: "Ranger",
-        valor: "R$ 210,00",
-        descricao: (
-          <>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p className="mt-4">
-              Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-            </p>
-            <p className="mt-4">
-              Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+            Combustível: Diesel, Cilindrada total (cc): 1.956, Potência mínima (cv): 160, Torque mínimo (kgf.m): 32,7 @ 1.750 rpm, Altura do veículo (mm): 1.600, Capacidade de carga (Kg): 1.000, Comprimento do veículo (mm) : 4.900, Entre-Eixos, mm): 2.900, Tanque de combustível (litros): 60, Banco do motorista elétrico, Bancos em Couro, âmbio automático de mínimo 7 velocidades, Tração (4x4 low), Rodas em liga leve 6.5 x 18 + pneus 225/60 R18, Sensor de estacionamento Frontal, Tração 4x4 com seletor, Espelho no para-sol lados motorista e passageiro, Abertura elétrica do bocal de abastecimento, Airbags (6) - laterais (2) cortina (2) Frontal (2), Alarme antifurto. Alça de segurança traseira com luz de leitura incorporada. Alto falantes dianteiros (2), Alto falantes traseiros (2) e Antena. Ar-condicionado digital. ASR (Controle de Tração). Banco do motorista com regulagem de altura. Barras longitudinais no teto, Brake light, Câmera de ré. Capota marítima. Central multimídia com tela de mínimo 7,0" touchscreen; Apple CarPlay wireless e Android Auto wireless; Comandos de voz Bluetooth, MP3, Rádio AM/FM, entrada aux, Porta USB, ESP (Controle Eletrônico de Estabilidade). Freios ABS com EBD. Ganchos para amarração de carga na caçamba, .Hill Holder (sistema ativo freio com controle eletrônico que auxilia nas arrancadas do veículo em subida). Retrovisores externos com comando elétrico, Sensor de estacionamento traseiro, Comandos de áudio no volante, Computador de bordo (distância, velocidade média e tempo de percurso). Desembaçador do vidro traseiro. Direção elétrica. Dois Tweeters. Travas elétricas (Travamento automático a 20 km/h, indicador de portas abertas, luz inter na com temporizador e tampa do combustível), Vidros elétricos dianteiros e traseiros antiesmagamento, Volante com regulagem de altura e profundidade.
             </p>
           </>
         ),
       },
     ],
-    // Continue adicionando outros tipos como "7 Lugares", "Ambulâncias", "Vans", "Ônibus", "Caminhões" e "Tratores"
+    "tratores": [
+      {
+        nome: "Bundny BDY 8540 SL Cabinado",
+        valor: "R$ 213.000,00",
+        descricao: (
+          <>
+            <p>
+            TRATOR AGRÍCOLA DE PNEUS, com as seguintes características: NOVO, ano e modelo igual ou superior a 2024, ZERO KM, tração 4X4, com cabine fechada ROPS/FOPS original de fábrica, com acesso por um lado e com ar-condicionado, motor a diesel, turbo, 4 cilindros, padrão de emissões MAR I (Resolução CONAMA), potência igual a 85 CV, caixa de câmbio sincronizada com 12 velocidades à frente e 12 à ré, tomada de potência/força independente/eletrohidráulico, potência de levantamento hidráulico de 3.460 kg, pneus dianteiros 12.4-24” R1 e traseiros 18.4-30” R1, capacidade de tanque de 110 litros (com tanque auxiliar), tomada de força dupla, peso do trator de 3.600 kg, tomada de potência traseira 540 RPM, sistema hidráulico com capacidade de 51 litros/min, equipado com duas válvulas de controle remoto, freios hidráulicos com acionamento mecânico banhados a óleo, direção hidrostática, engate de três pontos, barra de tração e contrapesos de série, e equipado com todos os itens/acessórios de série, bem como os obrigatórios e exigidos pelo Código Nacional de Trânsito e INMETRO.
+            </p>
+          </>
+        ),
+      },
+      {
+        nome: "Bundny DBY 8540 SL Plataformado - 2024/2024",
+        valor: "R$ 197.000,00",
+        descricao: (
+          <>
+            <p>
+            TRATOR AGRÍCOLA NOVO. ZERO HORA. Potência maior ou igual a 85 CV e menor que 99 CV. Plataformado. Tipo C. Especificações conforme folha de dados.
+            </p>
+          </>
+        ),
+      },
+    ],
   };
   
   // Verificação de segurança
