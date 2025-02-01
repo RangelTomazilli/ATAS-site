@@ -75,6 +75,20 @@ export default function Page () {
         ),
       },
     ],
+    "7-lugares": [
+      {
+        nome: "CITROEN / C3 AIRCROSS 7 FEEL TURBO",
+        valor: "R$ 118.500,00",
+        descricao: (
+          <>
+            <p>
+            {`VEÍCULO AUTOMOTOR, CAPACIDADE DE 07 LUGARES (SENDO 6 PASSAGEIROS E 1 MOTORISTA), ANO/MODELO 2024/2024 OU SUPERIOR, COR BRANCA, COM MOTOR FLEX (GASOLINA / ETANOL) COM POTENCIA MÍNIMA 100 CVS DE POTÊNCIA, AR CONDICIONADO, DIREÇÃO ELÉTRICA OU HIDRÁULICA, TRAVA ELÉTRICA NAS PORTAS, VIDROS ELÉTRICOS NAS PORTAS DIANTEIRAS, PARA CHOQUES PINTADOS NA COR DO VEÍCULO, E COM TODOS OS ITENS DE SEGURANÇA DE ACORDO COM O CÓDIGO DE
+TRÂNSITO BRASILEIRO E EXIGIDOS PELO DENATRAN.`}
+            </p>            
+          </>
+        ),
+      },
+    ],
   };
   
   // Verificação de segurança
