@@ -20,7 +20,6 @@ export default function Page () {
         ),
       },
     ],
-    "sedan": [],
     "suv": [
       {
         nome: "FIAT / FASTBACK TURBO",
@@ -89,7 +88,7 @@ TRÂNSITO BRASILEIRO E EXIGIDOS PELO DENATRAN.`}
   };
   
   // Verificação de segurança
-  if (!tipo || !(tipo in veiculosData)) {
+  if (!tipo || !(tipo in veiculosData)) { 
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="text-center">
