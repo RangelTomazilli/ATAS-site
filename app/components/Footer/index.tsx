@@ -55,7 +55,10 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/20 mt-10"></div>
 
         <div className="text-center mt-6 text-sm">
-          © 2024 Atas Públicas MG. All rights reserved.
+          © 2025 Atas Públicas MG. All rights reserved.
+        </div>
+        <div className="text-center text-sm">
+          Desenvolvido por <a href="https://zenvix.com.br" className="hover:underline">Zenvix Tech</a>
         </div>
       </div>
     </footer>
