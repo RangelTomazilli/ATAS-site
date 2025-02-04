@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       image: "/cards-images/7lugares.png",
-      title: "7 Lugares",
+      title: "7-Lugares",
       description: "",
     },
     {
