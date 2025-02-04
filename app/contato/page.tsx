@@ -1,4 +1,3 @@
-import WhatsAppButton from "../components/WhatsApp";
 
 export default function Contato() {
   return (
