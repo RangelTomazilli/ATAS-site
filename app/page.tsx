@@ -1,5 +1,6 @@
 import Title from "./components/Title"; // Corrigindo o caminho da importação
 import CardGrid from "./components/Services";
+import { fetchAtasPublicasData } from '@/lib/firebase/firebaseStore';
 
 export default function Home() {
   const cards = [
@@ -55,6 +56,11 @@ export default function Home() {
     },
   ];
   
+// Inside your component:
+const getData = async () => {
+  const data = await fetchAtasPublicasData();
+  // Use the data here
+};
   return (
     <div>
       <Title
