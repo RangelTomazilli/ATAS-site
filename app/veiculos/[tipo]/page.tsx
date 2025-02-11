@@ -19,6 +19,21 @@ export default function Page () {
           </>
         ),
       },
+      {
+        nome: "RENAULT KWID ZEN 1.0",
+        valor: "R$ 74.000,00",
+        descricao: (
+          <>
+            <p>
+            {`VEÍCULO HATCH ANO/MOD: 2024
+Configurações mínimas: Combustível: Flex, Cilindrada (cc): 999,1, Potência, (cv) : 68(G)/71(E), Torque: 9,3(G)/9,7(E), Altura do solo (mm): 175, Altura do veículo (mm): 1.400, Capacidade do porta-malas: (litros): 270, Comprimento do veículo (mm): 3.500, Distância entre-eixos : 2.300, Tanque de combustível (litros): 38, Ar condicionado, Banco traseiro rebatível, Cinto de segurança traseiro retrátil 3 pontos, Cintos de segurança dianteiros retráteis de 3 pontos,
+.Computador de Bordo, Direção hidráulica, Sinalização de frenagem de emergência, Airbag duplo (motorista e passageiro) e Freios ABS, Retrovisores externos com comando interno mecânico, Rodas de aço estampado 5.5 x 14" com calotas integrais + Pneus 165/70 R14, Vidros elétricos dianteiros e anti-esmagamento) e travas elétricas nas 4 portas, Radio am/fm com entrada USB e
+Bluetooth.
+`}
+            </p>
+          </>
+        ),
+      },
     ],
     "suv": [
       {
@@ -42,6 +57,19 @@ export default function Page () {
             <p className="mt-4">
             {`VEICULO CAMINHONETE CABINE DUPLA DIESEL ANO/MOD:2024
             Combustível: Diesel, Cilindrada total (cc): 1.956, Potência mínima (cv): 160, Torque mínimo (kgf.m): 32,7 @ 1.750 rpm, Altura do veículo (mm): 1.600, Capacidade de carga (Kg): 1.000, Comprimento do veículo (mm) : 4.900, Entre-Eixos, mm): 2.900, Tanque de combustível (litros): 60, Banco do motorista elétrico, Bancos em Couro, âmbio automático de mínimo 7 velocidades, Tração (4x4 low), Rodas em liga leve 6.5 x 18 + pneus 225/60 R18, Sensor de estacionamento Frontal, Tração 4x4 com seletor, Espelho no para-sol lados motorista e passageiro, Abertura elétrica do bocal de abastecimento, Airbags (6) - laterais (2) cortina (2) Frontal (2), Alarme antifurto. Alça de segurança traseira com luz de leitura incorporada. Alto falantes dianteiros (2), Alto falantes traseiros (2) e Antena. Ar-condicionado digital. ASR (Controle de Tração). Banco do motorista com regulagem de altura. Barras longitudinais no teto, Brake light, Câmera de ré. Capota marítima. Central multimídia com tela de mínimo 7,0" touchscreen; Apple CarPlay wireless e Android Auto wireless; Comandos de voz Bluetooth, MP3, Rádio AM/FM, entrada aux, Porta USB, ESP (Controle Eletrônico de Estabilidade). Freios ABS com EBD. Ganchos para amarração de carga na caçamba, .Hill Holder (sistema ativo freio com controle eletrônico que auxilia nas arrancadas do veículo em subida). Retrovisores externos com comando elétrico, Sensor de estacionamento traseiro, Comandos de áudio no volante, Computador de bordo (distância, velocidade média e tempo de percurso). Desembaçador do vidro traseiro. Direção elétrica. Dois Tweeters. Travas elétricas (Travamento automático a 20 km/h, indicador de portas abertas, luz inter na com temporizador e tampa do combustível), Vidros elétricos dianteiros e traseiros antiesmagamento, Volante com regulagem de altura e profundidade.`}
+            </p>
+          </>
+        ),
+      },
+      {
+        nome: "RENAULT OROCH PRO 1.6",
+        valor: "R$ 120.000,00",
+        descricao: (
+          <>
+            <p className="mt-4">
+            {`VEÍCULO PICK UP CABINE DUPLA
+ANO/MOD: 2024 Configurações mínimas: Tipo de carroceria PICK UP, Motor 1.6, Combustível Flex, Potência 118cv, Torque 15,0 kgfm, Número de cilindros 4 cilindros em linha, Cilindrada (cm³) 1.500 cm³, Direção Hidraulica, Tipo de tração Dianteira, Caixa de câmbio Manual Número de marchas 5 Dimensões Distância entre-eixos 2.800 mm Altura exterior 1.690 mm Comprimento exterior 4.700 mm, Número de lugares 5, Volume Volume da caçamba 680 Litros; Retrovisores regulagem manual; Ar-condicionado; Banco rebatível 1/1; Apoio de cabeça traseiro central e laterais com ajuste de altura; Tecnologia Rádio (Bluetooth, USB, AUX); Cintos de segurança traseiros de 3 pontos; Freios ABS; 2 airbags frontais; Câmbio manual de 5 velocidades; Roda aro 14".
+`}
             </p>
           </>
         ),
