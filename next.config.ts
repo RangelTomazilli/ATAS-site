@@ -1,15 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "standalone",
-  swcMinify: true,
-  images: {
-    unoptimized: true,
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   experimental: {
-    // Desabilitar recursos experimentais que possam causar problemas no Amplify
-    serverComponentsExternalPackages: [],
+    // Remova ou atualize esta linha conforme necessário
+    serverExternalPackages: ["package-name"], // Substitua pelo nome correto
   },
+  // Remova esta linha se não for suportada
+  swcMinify: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
