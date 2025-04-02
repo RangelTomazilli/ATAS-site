@@ -7,7 +7,7 @@ export default function Page () {
   const params = useParams();
   const tipo = params?.tipo as string;
   const veiculosData = {
-    hatch: [
+    "hatch": [
       {
         nome: "CITROEN C3 LIVE",
         valor: "R$ 77.900,00",
@@ -52,7 +52,7 @@ export default function Page () {
         ),
       },
     ],
-    suv: [
+    "suv": [
       {
         nome: "VOLKSWAGEN POLO SENSE TSI",
         valor: "R$ 102.200,00",
@@ -110,7 +110,7 @@ export default function Page () {
         ),
       },
     ],
-    tratores: [
+    "tratores": [
       {
         nome: "Bundny BDY 8540 SL Cabinado",
         valor: "R$ 213.000,00",
@@ -147,7 +147,7 @@ export default function Page () {
         ),
       },
     ],
-    sedan: [
+    "sedan": [
       {
         nome: "VOLKSWAGEN VIRTUS SENSE TSI",
         valor: "R$ 102.800,00",
