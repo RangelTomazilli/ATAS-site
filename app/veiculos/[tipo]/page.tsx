@@ -25,17 +25,7 @@ export default function Page () {
         descricao: (
           <>
             <p>
-              {`VEICULO HATCH 1.0: 
-              Capacidade mininas ;
-              Cor metalica;
-              motor 1.0;
-              Cilindra 999,1; 
-              Potencia 66,00 cv; 
-              Porta malas: 200 litros; 
-              Entre eixo: 2.300; 
-              Tanque: 36 litros;
-              Ar condicionado; 
-              Direção hidráulica ou elétrica ou eletro hidráulica. `}
+              {`VEICULO HATCH 1.0; Capacidade mininas; Cor metalica; motor 1.0; Cilindra 999,1; Potencia 66,00 cv; Porta malas: 200 litros; Entre eixo: 2.300; Tanque: 36 litros; Ar condicionado; Direção hidráulica ou elétrica ou eletro hidráulica.`}
             </p>
           </>
         ),
@@ -72,18 +62,7 @@ export default function Page () {
         descricao: (
           <>
             <p className="mt-4">
-              {`VEICULO CAMINHONETE CABINE DUPLA DIESEL 
-              Capacidade mínimas 
-              Cor metalica 
-              Motor 2.0 no minimo 
-              Lugares: 5 
-              Cilindra 1.900 
-              Potencia 170,00 cv Motor: DIESEL 
-              Entre eixo: 2.900 Capacidade de carga: 900 kg 
-              Tanque: 55 litros 
-              Ar condicionado 
-              Direção hidráulica ou elétrica ou eletro hidráulica;`}
-            </p>
+              {`VEICULO CAMINHONETE CABINE DUPLA DIESEL Capacidade mínimas Cor metalica Motor 2.0 no minimo Lugares: 5 Cilindra 1.900 Potencia 170,00 cv Motor: DIESEL Entre eixo: 2.900 Capacidade de carga: 900 kg Tanque: 55 litros Ar condicionado Direção hidráulica ou elétrica ou eletro hidráulica;`}           </p>
           </>
         ),
       },
@@ -154,18 +133,7 @@ export default function Page () {
         descricao: (
           <>
             <p>
-              {`VEICULO SEDAN 1.0 Turbo ou 1.3 
-Capacidade mínimas 
-Cor metalica 
-motor 1.0 turbo 
-Cilindra 999,1; 
-Potencia 98,00 cv 
-Porta malas: 485 litros 
-Entre eixo: 2.500 
-Tanque: 40 litros 
-Ar condicionado 
-Direção hidráulica ou elétrica ou eletro hidráulica; `}
-            </p>
+              {`VEICULO SEDAN 1.0 Turbo ou 1.3 Capacidade mínimas Cor metalica motor 1.0 turbo Cilindra 999,1; Potencia 98,00 cv Porta malas: 485 litros Entre eixo: 2.500 Tanque: 40 litros Ar condicionado Direção hidráulica ou elétrica ou eletro hidráulica;`}            </p>
           </>
         ),
       },
