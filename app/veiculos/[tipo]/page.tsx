@@ -41,15 +41,30 @@ export default function Page () {
           </>
         ),
       },
-    ],
-    "suv": [
       {
-        nome: "VOLKSWAGEN POLO SENSE TSI",
-        valor: "R$ 102.200,00",
+        nome: "RENAULT KWID ZEN 1.0",
+        valor: "R$ 74.000,00",
         descricao: (
           <>
             <p>
-              {`Cilindrada total (cc) : 999, Potência (cv) : 125,0 (G) / 130,0 (E), Altura do veículo (mm) : 1500, Capacidade do porta-malas (litros) : 360, Comprimento do veículo (mm) : 4000, Entre-Eixos (mm) : 2500, Tanque de combustível (litros) : 46, Banco traseiro bipartido 60/40 e com assentos rebatíveis, *Roda de liga leve R16, Airbags (4) - Frontal (2), Tórax e Cabeça (2), .larme antifurto, Ar-condicionado digital, ASR (Controle eletrônico de tração), Banco do motorista com regulagem de altura Brake light, Câmbio automático CVT (7 velocidades, simuladas), Central multimídia com tela de 8,0" touchscreen, Apple Car Play e Android Auto wireless, Comandos de Voz, Bluetooth, MP3, Rádio AM/FM, Comandos de áudio e painel de instrumentos no volante, Computador de Bordo (distância, consumo médio, consumo instantâneo, autonomia, velocidade média e tempo de percurso), Desembaçador do vidro traseiro com temporizador, Direção elétrica, ESP (Controle Eletrônico de Estabilidade) ESS (Sinalização de frenagem de emergência), Hill holder (Assistente de partida em rampa), Retrovisores externos com regulagem elétrica, Sensor de estacionamento traseiro, Vidros elétricos dianteiros e traseiros com função antiesmagamento, Volante com regularem de altura.`}
+              {`VEÍCULO HATCH ANO/MOD: 2024
+Configurações mínimas: Combustível: Flex, Cilindrada (cc): 999,1, Potência, (cv) : 68(G)/71(E), Torque: 9,3(G)/9,7(E), Altura do solo (mm): 175, Altura do veículo (mm): 1.400, Capacidade do porta-malas: (litros): 270, Comprimento do veículo (mm): 3.500, Distância entre-eixos : 2.300, Tanque de combustível (litros): 38, Ar condicionado, Banco traseiro rebatível, Cinto de segurança traseiro retrátil 3 pontos, Cintos de segurança dianteiros retráteis de 3 pontos,
+.Computador de Bordo, Direção hidráulica, Sinalização de frenagem de emergência, Airbag duplo (motorista e passageiro) e Freios ABS, Retrovisores externos com comando interno mecânico, Rodas de aço estampado 5.5 x 14" com calotas integrais + Pneus 165/70 R14, Vidros elétricos dianteiros e anti-esmagamento) e travas elétricas nas 4 portas, Radio am/fm com entrada USB e
+Bluetooth.`}
+            </p>
+          </>
+        ),
+      },
+    ],
+    "suv": [
+      {
+        nome: "FIAT FASTBACK TURBO",
+        valor: "R$ 123.000,00",
+        descricao: (
+          <>
+            <p>
+              {`VEICULO ZERO KM MODELO SUV ANO/MOD: 2024 Configurações mínimas: 
+Cilindrada total (cc) : 999, Potência (cv) : 125,0 (G) / 130,0 (E), Altura do veículo (mm) : 1500, Capacidade do porta-malas (litros) : 360, Comprimento do veículo (mm) : 4000, Entre-Eixos (mm) : 2500, Tanque de combustível (litros) : 46, Banco traseiro bipartido 60/40 e com assentos rebatíveis, *Roda de liga leve R16, Airbags (4) - Frontal (2), Tórax e Cabeça (2), .larme antifurto, Ar-condicionado digital, ASR (Controle eletrônico de tração), Banco do motorista com regulagem de altura Brake light, Câmbio automático CVT (7 velocidades, simuladas), Central multimídia com tela de 8,0" touchscreen, Apple Car Play e Android Auto wireless, Comandos de Voz, Bluetooth, MP3, Rádio AM/FM, Comandos de áudio e painel de instrumentos no volante, Computador de Bordo (distância, consumo médio, consumo instantâneo, autonomia, velocidade média e tempo de percurso), Desembaçador do vidro traseiro com temporizador, Direção elétrica, ESP (Controle Eletrônico de Estabilidade) ESS (Sinalização de frenagem de emergência), Hill holder (Assistente de partida em rampa), Retrovisores externos com regulagem elétrica, Sensor de estacionamento traseiro, Vidros elétricos dianteiros e traseiros com função antiesmagamento, Volante com regularem de altura. `}
             </p>
           </>
         ),
