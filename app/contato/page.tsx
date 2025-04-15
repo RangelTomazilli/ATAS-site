@@ -15,7 +15,7 @@ export default function Contato() {
               rel="noopener noreferrer"
               className="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-green-600 transition duration-300"
             >
-              Conversar no WhatsApp
+              Conversar pelo WhatsApp
             </a>
           </div>
           <div className="text-center p-4 bg-blue-50 rounded-lg transition duration-300">
