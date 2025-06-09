@@ -69,6 +69,17 @@ Cilindrada total (cc) : 999, Potência (cv) : 125,0 (G) / 130,0 (E), Altura do v
           </>
         ),
       },
+      {
+        nome: "RENAULT KARDIAN/EVOLUTION",
+        valor: "R$ 101.000,00",
+        descricao: (
+          <>
+            <p>
+              {`SUV COMPACTO - VEÍCULO HATCH 05 LUGARES`}
+            </p>
+          </>
+        ),
+      },
     ],
     "pick-up": [
       {
