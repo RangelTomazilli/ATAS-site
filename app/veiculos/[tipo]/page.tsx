@@ -4,10 +4,16 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { getVeiculosFromFirebase } from "@/app/components/Services/firebaseGetVeiculos";
 
+interface Veiculo {
+  nome: string;
+  valor: string;
+  descricao: string;
+}
+
 export default function Page () {
   const params = useParams();
   const tipo = params?.tipo as string;
-  const [veiculosData, setVeiculosData] = useState<any>(null);
+  const [veiculosData, setVeiculosData] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -44,7 +50,7 @@ export default function Page () {
     );
   }
 
-  const veiculos = veiculosData[tipo];
+  const veiculos = veiculosData[tipo] as Veiculo[];
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -53,7 +59,7 @@ export default function Page () {
           {tipo}
         </h1>
         <div className="space-y-8">
-          {veiculos.map((veiculo: any, index: number) => (
+          {veiculos.map((veiculo, index) => (
             <div
               key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105"
@@ -67,9 +73,7 @@ export default function Page () {
                     {veiculo.valor}
                   </span>
                 </div>
-                <div className="text-gray-700 space-y-4">
-                  <p>{veiculo.descricao}</p>
-                </div>
+                <div className="text-gray-700 space-y-4"><p>{veiculo.descricao}</p></div>
               </div>
             </div>
           ))}
