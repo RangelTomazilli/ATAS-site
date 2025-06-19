@@ -8,6 +8,7 @@ interface Card {
   image: string;
   title: string;
   description: string;
+  page: string;
 }
 
 interface CardGridProps {
@@ -17,8 +18,8 @@ interface CardGridProps {
 const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
   const router = useRouter();
 
-  const handleCardClick = (title: string) => {
-    router.push(`/veiculos/${title.toLowerCase()}`); // Navega para a página de detalhes
+  const handleCardClick = (page: string) => {
+    router.push(`/veiculos/${page}`); // Navega para a página de detalhes
   };
 
   return (
@@ -28,7 +29,7 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
           key={index}
           className="relative rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
           style={{ height: "250px" }}
-          onClick={() => handleCardClick(card.title)}
+          onClick={() => handleCardClick(card.page)}
         >
           <div className="absolute inset-0 flex items-center justify-center transition duration-300">
             <Image
