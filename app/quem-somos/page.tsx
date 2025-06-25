@@ -1,7 +1,9 @@
 // import React from "react";
 
-// export default function QuemSomos() {
-//   return (
+export default function QuemSomos() {
+  return (
+
+    <></>
 //     <div className="min-h-screen bg-gray-100 text-gray-900">
 //       <div className="container mx-auto px-6 py-12">
 //         {/* Título da página */}
@@ -42,5 +44,5 @@
 //         </div>
 //       </div>
 //     </div>
-//   );
-// }
+  );
+}
