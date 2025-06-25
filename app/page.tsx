@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <div>
       <Title
-        title="A forma mais fácil, rápida, segura e econômica de comprar."
+        title="A forma mais fácil, rápida, segura e econômica."
         subtitle=""
       />
       <CardGrid cards={cards} /> 

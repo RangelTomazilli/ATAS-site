@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 />
             </Link>
             <p className="mt-4 text-sm">
-              Facilitando o processo de compra de diferentes tipos de veículos.
+              Facilitando o processo de adesão a diferentes tipos de veículos.
             </p>
           </div>
 
