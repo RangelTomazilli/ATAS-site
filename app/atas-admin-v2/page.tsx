@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FormEvent, useCallback, useEffect, useState } from "react";
+import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import { FaCheck, FaEdit, FaPlus, FaTimes, FaTrash } from "react-icons/fa";
 import { getCatalogoV2, salvarCatalogoV2 } from "@/app/components/Services/firebaseCatalogoV2";
 import { getVeiculosFromFirebase } from "@/app/components/Services/firebaseGetVeiculos";
@@ -42,6 +42,8 @@ export default function AdminV2() {
   const [carregandoPrevia, setCarregandoPrevia] = useState(false);
   const [previaMigracao, setPreviaMigracao] = useState<ResumoMigracaoV2[] | null>(null);
   const [catalogoMigracao, setCatalogoMigracao] = useState<CatalogoV2 | null>(null);
+  const categoriaFormRef = useRef<HTMLFormElement>(null);
+  const veiculoFormRef = useRef<HTMLFormElement>(null);
 
   const carregar = useCallback(async () => {
     setLoading(true);
@@ -56,6 +58,20 @@ export default function AdminV2() {
   }, []);
 
   useEffect(() => { void carregar(); }, [carregar]);
+
+  useEffect(() => {
+    if (!editandoCategoria) return;
+    window.requestAnimationFrame(() => {
+      categoriaFormRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }, [editandoCategoria]);
+
+  useEffect(() => {
+    if (!categoriaVeiculo) return;
+    window.requestAnimationFrame(() => {
+      veiculoFormRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }, [categoriaVeiculo, editandoVeiculo]);
 
   async function persistir(proximo: CatalogoV2, sucesso: string) {
     setSalvando(true);
@@ -246,7 +262,7 @@ export default function AdminV2() {
         )}
 
         {editandoCategoria && (
-          <form onSubmit={salvarCategoria} className="mb-8 rounded-xl bg-white p-6 shadow">
+          <form ref={categoriaFormRef} onSubmit={salvarCategoria} className="mb-8 scroll-mt-4 rounded-xl bg-white p-6 shadow">
             <h2 className="mb-4 text-2xl font-bold">{editandoCategoria === "nova" ? "Criar categoria" : "Editar categoria"}</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <label>Nome amigável<input required value={categoriaForm.nome} onChange={(e) => setCategoriaForm((v) => ({ ...v, nome: e.target.value, slug: editandoCategoria === "nova" ? criarSlug(e.target.value) : v.slug }))} className="mt-1 w-full rounded border p-2" /></label>
@@ -266,7 +282,7 @@ export default function AdminV2() {
         )}
 
         {categoriaVeiculo && (
-          <form onSubmit={salvarVeiculo} className="mb-8 rounded-xl bg-white p-6 shadow">
+          <form ref={veiculoFormRef} onSubmit={salvarVeiculo} className="mb-8 scroll-mt-4 rounded-xl bg-white p-6 shadow">
             <h2 className="mb-4 text-2xl font-bold">{editandoVeiculo === "novo" ? "Adicionar veículo" : "Editar veículo"}</h2>
             <div className="grid gap-4 md:grid-cols-2"><input required placeholder="Nome" value={veiculoForm.nome} onChange={(e) => setVeiculoForm((v) => ({ ...v, nome: e.target.value }))} className="rounded border p-2" /><input required placeholder="Valor" value={veiculoForm.valor} onChange={(e) => setVeiculoForm((v) => ({ ...v, valor: e.target.value }))} className="rounded border p-2" /></div>
             <textarea required rows={6} placeholder="Descrição" value={veiculoForm.descricao} onChange={(e) => setVeiculoForm((v) => ({ ...v, descricao: e.target.value }))} className="mt-4 w-full rounded border p-2" />
